@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-5level [%date{ISO8601}] [%thread] [%X{traceId}] %logger{36}:  [%X{context}]  %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="aura" level="INFO"/>
+
+    <root level="ERROR">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
