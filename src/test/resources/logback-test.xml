@@ -7,7 +7,7 @@
         </encoder>
     </appender>
 
-    <logger name="aura" level="INFO"/>
+    <logger name="devender" level="INFO"/>
 
     <root level="ERROR">
         <appender-ref ref="STDOUT" />

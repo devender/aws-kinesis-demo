@@ -1,4 +1,4 @@
-package aura.scout.kinesisdemo;
+package devender.scout.kinesisdemo;
 
 
 import org.junit.Assert;

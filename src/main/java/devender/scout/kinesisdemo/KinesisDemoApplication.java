@@ -1,4 +1,4 @@
-package aura.scout.kinesisdemo;
+package devender.scout.kinesisdemo;
 
 import com.amazonaws.auth.AWSCredentialsProvider;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
